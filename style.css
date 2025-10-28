@@ -1,0 +1,252 @@
+body{
+    background-color: #e1e2e4;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/pexels-pixabay-356844.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323555b0;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #545883b0;
+}
+
+.navbar-toggler{
+    font-size: 1.25rem;
+    
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.logo{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    margin: auto 0px auto 5px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link{
+    color: #fff !important;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover{
+    color: #ccc !important;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.hero-content h1{
+    font-family: "Alfa Slab One", serif;
+    font-size: 80px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+
+.hero-content p{
+    font-family: "Alfa Slab One", serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.h2{
+    font-family: "Alfa Slab One", serif;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card-title{
+    font-family: "Alfa Slab One", serif;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    
+}
+
+.card-text{
+    
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.btn-primary{
+    padding: 15px 30px;
+    font-size: 18;
+    background-color: #0d27bd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn-primary:hover{
+    background-color: #263cb8;
+}
+
+.card{
+    background-color: #cecece; 
+    margin: 30px;
+}
+
+.card-img-top{
+    margin-top: 12px;
+}
+
+
+
+
+
+.hero1{
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/nyc-4854718_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#alcím{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:  60px;
+    font-size: 70px;
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+}
+
+.alcím{
+    font-family: "Alfa Slab One", serif;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 15px 15px 20px auto;
+    text-align: center;
+}
+
+.szöveg{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+
+.képcím{
+    background-color: rgb(34, 34, 33);
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.statue{
+    margin-bottom: 100px;
+}
+
+#gomb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gomb{
+    margin: 0px 0px 20px 0px;
+    padding: 15px 30px;
+    font-size: 18;
+    background-color: #0d27bd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.gomb:hover{
+    cursor: pointer;
+    background-color: #263cb8;
+}
+    
+
+.gomb:active{
+    box-shadow: 0px 2px 10px grey;
+}
+
+
+
+
